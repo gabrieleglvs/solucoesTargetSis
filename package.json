@@ -1,0 +1,20 @@
+{
+  "name": "solucoes-target-sistemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fibonacci": "node fibonacci/index.js",
+    "faturamento": "node faturamento/index.js",
+    "porcentagemFaturamento": "node porcentagemFaturamento/index.js",
+    "string": "node string/index.js"
+  },
+  "keywords": [],
+  "author": "Gabriele Gonçalves",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
